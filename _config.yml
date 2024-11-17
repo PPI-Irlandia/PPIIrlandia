@@ -14,7 +14,7 @@ title: "PPI Irlandia website"
 email: "devfest@gdg.org.ua"
 description: "PPI Irlandia website"
 baseurl: "/zeppelin"
-url: "https://ppi-irlandia.github.io/PPIIrlandia/"
+url: "https://ppi-irlandia.github.io"
 permalink: "/blog/:title"
 
 # Organizer Info
