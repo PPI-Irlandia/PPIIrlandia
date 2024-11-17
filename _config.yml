@@ -69,10 +69,10 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "150", specialCharacter: "+", info: "active students", detail: "from all around Indonesia"}
+ - {count: "50", specialCharacter: "+", info: "events", detail: "organized since 2016"}
+ - {count: "10", specialCharacter: "+", info: "universities", detail: "across Ireland"}
+ - {count: "500", specialCharacter: "+", info: "alumni", detail: "spread all over the world"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
