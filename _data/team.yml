@@ -122,6 +122,16 @@
 
 - 
   id: 12
+  name: "Clara"
+  surname: "Angelica"
+  title: "Graphic Design"
+  thumbnailUrl: Clara_Angelica.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 13
   name: "Yanuar Rohmat Aji"
   surname: "Pradana"
   title: "Literature and Studies"
@@ -131,7 +141,7 @@
     - {abbr: "GDG", title: "PPI Irlandia"}
 
 - 
-  id: 13
+  id: 14
   name: "Deriqqa"
   surname: "Mawaddah"
   title: "Literature and Studies"
@@ -140,12 +150,3 @@
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
 
-- 
-  id: 14
-  name: "Clara"
-  surname: "Angelica"
-  title: "Secretary"
-  thumbnailUrl: Intan_andini.jpg
-  team: true
-  ribbon: 
-    - {abbr: "GDG", title: "PPI Irlandia"}
