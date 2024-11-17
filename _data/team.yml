@@ -1,6 +1,6 @@
 - 
   id: 0
-  name: "Cygnus Maryam"
+  name: "Cygnus"
   surname: "Abhisarikallah"
   title: "President"
   thumbnailUrl: Cygnus_Abhisarikallah.JPG
@@ -43,7 +43,7 @@
 - 
   id: 4
   name: "Josephine Angelina"
-  surname: "Tab"
+  surname: "Tan"
   title: "Internal Communication"
   thumbnailUrl: Josephine_Angelina_Tan.jpg
   team: true
