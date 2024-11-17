@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "PPI Irlandia website"
 email: "devfest@gdg.org.ua"
 description: "PPI Irlandia website"
-baseurl: "/zeppelin"
+baseurl: "/PPIIrlandia"
 url: "https://ppi-irlandia.github.io"
 permalink: "/blog/:title"
 
