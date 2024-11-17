@@ -1,60 +1,151 @@
 - 
   id: 0
-  name: "Vitaliy"
-  surname: "Zasadnyy"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: VitaliyZasadnyy.jpg
+  name: "Cygnus Maryam"
+  surname: "Abhisarikallah"
+  title: "President"
+  thumbnailUrl: Cygnus_Abhisarikallah.JPG
   team: true
   ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
+    - {abbr: "GDG", title: "P"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
-    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
-    - {name: "site", link: "http://zasadnyy.com/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/cygnusabhisarikallah/?originalSubdomain=ie"}
+
 - 
   id: 1
-  name: "Oleh"
-  surname: "Zasadnyy"
-  title: "Designer and Web Developer"
-  thumbnailUrl: OlehZasadnyy.jpg
+  name: "Aryo Dimas"
+  surname: "Witjaksono"
+  title: "Vice President"
+  thumbnailUrl: Aryo_Dimas_Witjaksono.jpg
   team: true
   ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
-    - {name: "github", link: "https://github.com/ozasadnyy"}
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
 - 
   id: 2
-  name: "Ostap"
-  surname: "Andrusiv"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: OstapAndrusiv.jpg
+  name: "Intan"
+  surname: "Andini"
+  title: "Secretary"
+  thumbnailUrl: Intan_andini.jpg
   team: true
   ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
-    - {name: "twitter", link: "https://twitter.com/p1f"}
-    - {name: "site", link: "http://andrusiv.com/"}
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 3
+  name: "Abyan Azraf"
+  surname: "Soewandi"
+  title: "Treasurer"
+  thumbnailUrl: Abyan_Azraf_Soewandi.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
 - 
   id: 4
-  name: "Dmytro"
-  surname: "Danylyk"
-  title: "Android Program Committee"
-  thumbnailUrl: DmytroDanylyk.jpg
-  subTeam: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+  name: "Josephine Angelina"
+  surname: "Tab"
+  title: "Internal Communication"
+  thumbnailUrl: Josephine_Angelina_Tan.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 5
+  name: "Andi Rezqi"
+  surname: "Safitri"
+  title: "Internal Communication"
+  thumbnailUrl: Andi_Rezqi_Safitri.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 6
+  name: "Celine"
+  surname: "Kakauhe"
+  title: "External Communication"
+  thumbnailUrl: Celine_Kakauhe.jpeg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
 - 
   id: 7
-  name: "Valentyn"
-  surname: "Shybanov"
-  title: "Web and Cloud Program Committee"
-  thumbnailUrl: ValentynShybanov.jpg
-  subTeam: true
-  social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+  name: "Arsa"
+  surname: "Radifan"
+  title: "Business"
+  thumbnailUrl: Arsa_Radifan.jpeg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 8
+  name: "Septa Jurdy"
+  surname: "Mulya"
+  title: "Business"
+  thumbnailUrl: Septa_Jurdy_Mulya.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 9
+  name: "Zain"
+  surname: "Arifin"
+  title: "Information Technology"
+  thumbnailUrl: Zain_Arifin.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 10
+  name: "Aula Khoirun"
+  surname: "Nisa"
+  title: "Social Media"
+  thumbnailUrl: Aula_Khoirun_Nisa.jpeg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 11
+  name: "Fina Nusa"
+  surname: "Puspa"
+  title: "Secretary"
+  thumbnailUrl: Fina_Nusa_Puspa.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 12
+  name: "Yanuar Rohmat Aji"
+  surname: "Pradana"
+  title: "Literature and Studies"
+  thumbnailUrl: Yanuar_Rohmat_Aji_Pradana.JPG
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 13
+  name: "Deriqqa"
+  surname: "Mawaddah"
+  title: "Literature and Studies"
+  thumbnailUrl: Deriqqa_Mawaddah.jpeg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 14
+  name: "Clara"
+  surname: "Angelica"
+  title: "Secretary"
+  thumbnailUrl: Intan_andini.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "PPI Irlandia"}

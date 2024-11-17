@@ -18,9 +18,9 @@ url: "https://ppi-irlandia.github.io"
 permalink: "/blog/:title"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
+organizerName: "PPI Irlandia"
+organizerAlternateName: "PPI Irlandia"
+organizerDescription: "PPI Irlandia"
 organizerEmail: "lviv@gdg.org.ua"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://lviv.gdg.org.ua/"
@@ -40,7 +40,7 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/news/", text: "News"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
@@ -53,8 +53,8 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
+heroTitle: "PPI IRLANDIA"
+eventDate: "Perhimpunan Pelajar Indonesia di Irlandia"
 typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
 typeoutFallback: "Season"
 heroButtons:
@@ -190,7 +190,7 @@ footerBlocks:
   links:
    - {permalink: "/cod/", text: "Code of Conduct"}
 
-# Blog
+# News
 blogTitle: "Latest news"
 blogCommentsEnabled: true
 discusShortName: "devfestua"
@@ -200,7 +200,7 @@ showSessions: true
 
 # Team Block
 teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+aboutUs: "Meet PPI Irlandia 2024-2025 committee!"
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
