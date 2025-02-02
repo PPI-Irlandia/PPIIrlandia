@@ -39,13 +39,11 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
- - {permalink: "/news/", text: "News"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/", text: "Home"} #Home page
+ - {permalink: "/news/", text: "News"} # Collection of past events
+ - {permalink: "/team/", text: "Team"} # 
+ - {permalink: "/logistics/", text: "Logistics"} # there should be an FAQ section
+ - {permalink: "/hackathon/", text: "Hackathon"} # there should be a 
 bottomNavigationLinks:
  - {link: "mailto:ppi.irlandia@ppi.id", text: "Contact us"}
 rightNavigationButtons:
@@ -83,9 +81,9 @@ partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
-subscribeTitle: "Subscribe for updates"
-subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+subscribeTitle: "Contact us here"
+subscribeAction: "mailto:ppi.irlandia@ppi.id"
+subscribeInfo: "Alternatively, you can email us at ppi.irlandia@ppi.id"
 
 # Tickets Block
 ticketsTitle: "Pricetable"
