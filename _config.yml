@@ -61,9 +61,9 @@ heroButtons:
 # About Block
 aboutTitle: "About GDG DevFest"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Student-Led", image: "student.jpg", text: "PPI Irlandia is 100% run by Indonesian students in Ireland, from organizing events to building a tight-knit community. We’re here to connect, support, and vibe together with you!"}
+ - {title: "Community", image: "workshop.jpg", text: "We know how tough it is to start fresh in a new country—but you’re not alone. PPI Irlandia is here to support, connect, and help you from Galway to Dublin." }
+ - {title: "Events", image: "hackathon.jpg", text: "Are you missing Indonesian food or culture? Well, check your calendar. We have an event or two every month." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
