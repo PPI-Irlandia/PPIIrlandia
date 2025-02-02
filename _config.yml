@@ -41,9 +41,9 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
  - {permalink: "/", text: "Home"} #Home page
  - {permalink: "/news/", text: "News"} # Collection of past events
- - {permalink: "/team/", text: "Team"} # 
+ - {permalink: "/team/", text: "Team"} # Collection of current committees
  - {permalink: "/logistics/", text: "Logistics"} # there should be an FAQ section
- - {permalink: "/hackathon/", text: "Hackathon"} # there should be a 
+ - {permalink: "/hackathon/", text: "Hackathon"} # there should be a contact us and social media section
 bottomNavigationLinks:
  - {link: "mailto:ppi.irlandia@ppi.id", text: "Contact us"}
 rightNavigationButtons:
@@ -78,12 +78,6 @@ latestNewsTitle: "Latest news"
 organizersTitle: "Organizers"
 partnersTitle: "Partners"
 partnersC4sponsorsButton: "Become a sponsor"
-
-# Subscribe Block
-subscribeImage: "subscribe.jpg"
-subscribeTitle: "Contact us here"
-subscribeAction: "mailto:ppi.irlandia@ppi.id"
-subscribeInfo: "Alternatively, you can email us at ppi.irlandia@ppi.id"
 
 # Tickets Block
 ticketsTitle: "Pricetable"
