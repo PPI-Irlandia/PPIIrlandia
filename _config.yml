@@ -56,8 +56,7 @@ heroImage: "hero2.jpg"
 heroTitle: "PPI IRLANDIA"
 eventDate: "Perhimpunan Pelajar Indonesia di Irlandia"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Contact Us"}
- - {permalink: "/#tickets", text: "Work with Us"}
+- {link: "mailto:ppi.irlandia@ppi.id", text: "Contact Us"}
 
 # About Block
 aboutTitle: "About GDG DevFest"
