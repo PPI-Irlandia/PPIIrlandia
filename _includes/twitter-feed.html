@@ -1,15 +1,17 @@
-<!-- Begin Twitter Feed Section -->
-<section id="twitter-feed" class="twitter-feed image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.tweetsFeedImage }});">
+<!-- Begin Instagram Feed Section -->
+<section id="instagram-feed" class="instagram-feed image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.instagramFeedImage }});">
     <div class="overlay solid-overlay"></div>
     <div class="content-wrapper">
         <div class="col-md-8 col-md-offset-2">
             <svg class="icon" viewBox="0 0 30 32">
-                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-twitter"></use>
+                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-instagram"></use>
             </svg>
-            <h3>{{ site.tweetsFeedTitle }} <a href="https://twitter.com/search?q=%23{{ site.twitterHashTag }}" target="_blank">#{{ site.twitterHashTag }}</a>
+            <h3>{{ site.instagramFeedTitle }} <a href="https://www.instagram.com/ppiirlandia/?hl=en" target="_blank">@ppiirlandia</a>
             </h3>
-            <div id="tweets" class="tweets"></div>
+            <div id="instagram-embed" class="instagram-embed">
+                <iframe src="https://www.instagram.com/ppiirlandia/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
         </div>
     </div>
 </section>
-<!-- End Twitter Feed Section -->
+<!-- End Instagram Feed Section -->
