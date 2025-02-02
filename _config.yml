@@ -59,19 +59,19 @@ heroButtons:
 - {link: "mailto:ppi.irlandia@ppi.id", text: "Contact Us"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About PPI Irlandia"
 aboutBlock:
  - {title: "Student-Led", image: "student.jpg", text: "PPI Irlandia is 100% run by Indonesian students in Ireland, from organizing events to building a tight-knit community. We’re here to connect, support, and vibe together with you!"}
  - {title: "Community", image: "original.jpg", text: "We know how tough it is to start fresh in a new country—but you’re not alone. PPI Irlandia is here to support, connect, and help you from Galway to Dublin." }
  - {title: "Events", image: "food.jpg", text: "Are you missing Indonesian food or culture? Well, check your calendar. We have an event or two every month." }
 
 # Statistic Block
-statisticBlockImage: "statistic.jpg"
+statisticBlockImage: "Ireland.jpg"
 statisticBlock:
- - {count: "150", specialCharacter: "+", info: "active students", detail: "from all around Indonesia"}
- - {count: "50", specialCharacter: "+", info: "events", detail: "organized since 2016"}
- - {count: "10", specialCharacter: "+", info: "universities", detail: "across Ireland"}
- - {count: "500", specialCharacter: "+", info: "alumni", detail: "spread all over the world"}
+ - {count: "150", specialCharacter: "+", info: "active students", detail: "From all around Indonesia"}
+ - {count: "50", specialCharacter: "+", info: "events", detail: "Since 2016"}
+ - {count: "10", specialCharacter: "+", info: "universities", detail: "Across Ireland"}
+ - {count: "500", specialCharacter: "+", info: "alumni", detail: "Found all over the world"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
