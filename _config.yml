@@ -47,9 +47,9 @@ navigationLinks:
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Contact us"}
+ - {link: "mailto:ppi.irlandia@ppi.id", text: "Contact us"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Come work with us!"}
+ - {link: "mailto:ppi.irlandia@ppi.id", text: "Contact us!"}
 
 # Hero Block
 heroImage: "hero2.jpg"
