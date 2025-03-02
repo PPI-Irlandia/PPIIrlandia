@@ -43,7 +43,6 @@ navigationLinks:
  - {permalink: "/news/", text: "News"} # Collection of past events
  - {permalink: "/team/", text: "Team"} # Collection of current committees
  - {permalink: "/logistics/", text: "Logistics"} # there should be an FAQ section
- - {permalink: "/hackathon/", text: "Hackathon"} # there should be a contact us and social media section
 bottomNavigationLinks:
  - {link: "mailto:ppi.irlandia@ppi.id", text: "Contact us"}
 rightNavigationButtons:
