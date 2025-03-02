@@ -21,14 +21,14 @@ permalink: "/blog/:title"
 organizerName: "PPI Irlandia"
 organizerAlternateName: "PPI Irlandia"
 organizerDescription: "PPI Irlandia"
-organizerEmail: "lviv@gdg.org.ua"
+organizerEmail: "ppi.irlandia@ppi.id"
 organizerLogo: "/img/seo/Logo_PPI.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "https://ppi-irlandia.github.io"
 
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
 twitterAccount: "@DevFest"
-socialImageSrcGooglePlus: "/img/seo/Logo_PPI.png
+socialImageSrcGooglePlus: "/img/seo/Logo_PPI.png"
 socialImageSrcTwitter: "/img/seo/Logo_PPI.png"
 socialImageSrcFacebook: "/img/seo/Logo_PPI.png"
 
