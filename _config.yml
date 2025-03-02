@@ -22,15 +22,15 @@ organizerName: "PPI Irlandia"
 organizerAlternateName: "PPI Irlandia"
 organizerDescription: "PPI Irlandia"
 organizerEmail: "lviv@gdg.org.ua"
-organizerLogo: "/img/seo/organizer-logo.png"
+organizerLogo: "/img/seo/Logo_PPI.png"
 organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
 twitterAccount: "@DevFest"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+socialImageSrcGooglePlus: "/img/seo/Logo_PPI.png
+socialImageSrcTwitter: "/img/seo/Logo_PPI.png"
+socialImageSrcFacebook: "/img/seo/Logo_PPI.png"
 
 # Documents
 c4pUrl: "https://bit.ly/dfua-c4p"
