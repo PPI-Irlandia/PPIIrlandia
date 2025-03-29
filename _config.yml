@@ -42,6 +42,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"} #Home page
  - {permalink: "/news/", text: "News"} # Collection of past events
  - {permalink: "/team/", text: "Team"} # Collection of current committees
+ - { permalink: "/korwil/", text: "Koordinator Wilayah" } # Collection of current county coordinators
  - {permalink: "/logistics/", text: "Logistics"} # there should be an FAQ section
 bottomNavigationLinks:
  - {link: "mailto:ppi.irlandia@ppi.id", text: "Contact us"}
@@ -157,6 +158,9 @@ showSessions: true
 
 # Team Block
 teamBlockTitle: "2024-2025 Committee"
+
+# Koordinator Wilayah Block
+korwilBlockTitle: "2024-2025 Koordinator Wilayah"
 
 
 # Logistics Find Way Block

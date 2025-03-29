@@ -1,0 +1,73 @@
+-
+  id: 0
+  name: "Yohannes"
+  surname: ""
+  title: "Koordinator Wilayah Cork"
+  thumbnailUrl: Yohannes.jpg
+  korwil: true
+  ribbon:
+    - {abbr: "GDG", title: "PPI Irlandia"}
+  social:
+    - { name: "email", link: "mailto:yohannes.sananto@gmail.com" }
+
+-
+  id: 1
+  name: "Nissa"
+  surname: "Vidyanita"
+  title: "Koordinator Wilayah Dublin"
+  thumbnailUrl: Nissa_Vidyanita.jpg
+  korwil: true
+  ribbon:
+    - {abbr: "GDG", title: "PPI Irlandia"}
+  social:
+    - { name: "email", link: "mailto:nissavidyanita@gmail.com" }
+
+-
+  id: 2
+  name: "Benediktus Marvin"
+  surname: "Sosrodjojo"
+  title: "Koordinator Wilayah Dundalk"
+  thumbnailUrl: Benediktus_Marvin_Sosrodjojo.jpg
+  korwil: true
+  ribbon:
+    - {abbr: "GDG", title: "PPI Irlandia"}
+  social:
+    - { name: "email", link: "mailto:bmarvins214@gmail.com" }
+
+
+-
+  id: 3
+  name: "Silviana Isabela"
+  surname: "Nababan"
+  title: "Koordinator Wilayah Galway"
+  thumbnailUrl: Silviana_Isabela_Nababan.jpg
+  korwil: true
+  ribbon:
+    - {abbr: "GDG", title: "PPI Irlandia"}
+  social:
+    - { name: "email", link: "mailto:nababansilvianai@gmail.com" }
+
+-
+  id: 4
+  name: "Pranedya"
+  surname: "Atria"
+  title: "Koordinator Wilayah Galway"
+  thumbnailUrl: Pranedya_Atria.jpg
+  korwil: true
+  ribbon:
+    - {abbr: "GDG", title: "PPI Irlandia"}
+  social:
+    - { name: "email", link: "mailto:P.Atria1@universityofgalway.ie" }
+
+-
+  id: 5
+  name: "Andi Rezqi"
+  surname: "Safitri"
+  title: "Koordinator Wilayah Limerick"
+  thumbnailUrl: Andi_Rezqi_Safitri.jpg
+  korwil: true
+  ribbon:
+    - {abbr: "GDG", title: "PPI Irlandia"}
+  social:
+    - { name: "email", link: "mailto:rezqisafitri@gmail.com" }
+
