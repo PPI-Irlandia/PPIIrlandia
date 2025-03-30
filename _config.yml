@@ -55,6 +55,7 @@ heroTitle: "PPI IRLANDIA"
 eventDate: "Perhimpunan Pelajar Indonesia di Irlandia"
 heroButtons:
 - {link: "mailto:ppi.irlandia@ppi.id", text: "Contact Us"}
+- {permalink: "/korwil/", text: "Koordinator Wilayah"}
 
 # About Block
 aboutTitle: "About PPI Irlandia"
