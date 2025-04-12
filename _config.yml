@@ -40,7 +40,7 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"} #Home page
- - {permalink: "/news/", text: "News"} # Collection of past events
+ - {permalink: "/blog/", text: "Blog"} # Collection of past events
  - {permalink: "/team/", text: "Team"} # Collection of current committees
  - { permalink: "/korwil/", text: "Koordinator Wilayah" } # Collection of current county coordinators
 bottomNavigationLinks:
