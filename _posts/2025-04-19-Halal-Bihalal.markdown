@@ -15,7 +15,7 @@ A special highlight of the day was the presence of His Excellency Wan Aznainizam
 
 The weather couldn’t have been better, sunny and perfect for a group photo! We had extraordinary amount of Indonesian dishes available, all prepared by the Indonesian diaspora and students. With over 70 participants from across Ireland, the event was a huge success, and it was a wonderful reminder of the strength and unity of the Indonesian community here in Ireland. 
 
-<img src="../img/Blog/Halbi/Indoor.jpg" alt="Indoor" width="1000"/>
+<img src="../img/Blog/Halbi/Outdoor.jpg" alt="Outdoor" width="800"/>
 
 Until we meet again next year!
 
