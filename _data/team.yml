@@ -90,8 +90,18 @@
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
 
-- 
+-
   id: 9
+  name: "Jonathan"
+  surname: "Darren"
+  title: "Business"
+  thumbnailUrl: Jonathan_Darren.png
+  team: true
+  ribbon:
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 10
   name: "Zain"
   surname: "Arifin"
   title: "Information Technology"
@@ -101,7 +111,7 @@
     - {abbr: "GDG", title: "PPI Irlandia"}
 
 - 
-  id: 10
+  id: 11
   name: "Aula Khoirun"
   surname: "Nisa"
   title: "Social Media"
@@ -111,7 +121,7 @@
     - {abbr: "GDG", title: "PPI Irlandia"}
 
 - 
-  id: 11
+  id: 12
   name: "Fina Nusa"
   surname: "Puspa"
   title: "Secretary"
@@ -121,7 +131,7 @@
     - {abbr: "GDG", title: "PPI Irlandia"}
 
 - 
-  id: 12
+  id: 13
   name: "Clara"
   surname: "Angelica"
   title: "Graphic Design"
@@ -131,7 +141,7 @@
     - {abbr: "GDG", title: "PPI Irlandia"}
 
 - 
-  id: 13
+  id: 14
   name: "Yanuar Rohmat"
   surname: "Pradana"
   title: "Literature and Studies"
@@ -141,7 +151,7 @@
     - {abbr: "GDG", title: "PPI Irlandia"}
 
 - 
-  id: 14
+  id: 15
   name: "Deriqqa"
   surname: "Mawaddah"
   title: "Literature and Studies"
