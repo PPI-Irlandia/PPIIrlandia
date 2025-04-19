@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ajakan PPI Irlandia 2025"
+title:  "Halal Bihalal 2025"
 date:   2025-04-19 09:00:00
 isStaticPost: false
 ---
