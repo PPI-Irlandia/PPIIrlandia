@@ -7,16 +7,16 @@ isStaticPost: false
 PPI Irlandia just held iftar gatherings in different counties across Ireland! It was a special chance for us to come together, share meals, and connect with fellow Indonesians during Ramadan. Thank you to everyone who joined and helped make each iftar warm and memorable. All of us are far away from home and family yet, we could not feel more at home. Here are some of our favorite moments, take a look!
 
 #### Dublin
-![Trinity College Dublin. 21 March 2025](../img/Blog/Bukber/Dublin.jpg)
+![Trinity College Dublin. 21 March 2025](../img/Blog/Bukber/Dublin.jpg){width=75%}
 
 #### Cork
-![Cork Iftar was held in Mr Taufan residence. 22 March 2025](../img/Blog/Bukber/Cork.jpg)
+![Cork Iftar was held in Mr Taufan residence. 22 March 2025](../img/Blog/Bukber/Cork.jpg){width=75%}
 
 #### Galway
-![University of Galway. 7 March 2025](../img/Blog/Bukber/Galway.jpg)
+![University of Galway. 7 March 2025](../img/Blog/Bukber/Galway.jpg){width=75%}
 
 #### Limerick
-![Bambu Restaurant, Limerick. 14 March 2025](../img/Blog/Bukber/Limerick.jpg)
+![Bambu Restaurant, Limerick. 14 March 2025](../img/Blog/Bukber/Limerick.jpg){width=75%}
 
 
 #### Any questions or inquiries? 
