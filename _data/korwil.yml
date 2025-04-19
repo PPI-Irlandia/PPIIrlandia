@@ -1,8 +1,7 @@
 -
   id: 0
   name: "Yohannes"
-  surname: ""
-  title: "Koordinator Wilayah Cork"
+  title: "Cork"
   thumbnailUrl: Yohannes.png
   korwil: true
   ribbon:
@@ -12,9 +11,8 @@
 
 -
   id: 1
-  name: "Nissa"
-  surname: "Vidyanita"
-  title: "Koordinator Wilayah Dublin"
+  name: "Nissa Vidyanita"
+  title: "Dublin"
   thumbnailUrl: Nissa_Vidyanita.png
   korwil: true
   ribbon:
@@ -24,9 +22,8 @@
 
 -
   id: 2
-  name: "Benediktus"
-  surname: "Marvin"
-  title: "Koordinator Wilayah Dundalk"
+  name: "Benediktus Marvin Sosrodjojo"
+  title: "Dundalk"
   thumbnailUrl: Benediktus_Marvin_Sosrodjojo.png
   korwil: true
   ribbon:
@@ -37,9 +34,8 @@
 
 -
   id: 3
-  name: "Silviana"
-  surname: "Nababan"
-  title: "Koordinator Wilayah Galway"
+  name: "Silviana Isabela Nababan"
+  title: "Galway"
   thumbnailUrl: Silviana_Isabela_Nababan.png
   korwil: true
   ribbon:
@@ -49,9 +45,8 @@
 
 -
   id: 4
-  name: "Pranedya"
-  surname: "Atria"
-  title: "Koordinator Wilayah Galway"
+  name: "Pranedya Atria"
+  title: "Galway"
   thumbnailUrl: Pranedya_Atria.png
   korwil: true
   ribbon:
@@ -61,9 +56,8 @@
 
 -
   id: 5
-  name: "Andi Rezqi"
-  surname: "Safitri"
-  title: "Koordinator Wilayah Limerick"
+  name: "Andi Rezqi Safitri"
+  title: "Limerick"
   thumbnailUrl: Andi_Rezqi_Safitri.png
   korwil: true
   ribbon:

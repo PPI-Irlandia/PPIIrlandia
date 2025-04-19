@@ -60,8 +60,18 @@
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
 
-- 
+-
   id: 6
+  name: "Christover"
+  surname: "Korompis"
+  title: "Internal Communication"
+  thumbnailUrl: Christover_Aprilliano_Korompis.png
+  team: true
+  ribbon:
+    - {abbr: "GDG", title: "PPI Irlandia"}
+
+- 
+  id: 7
   name: "Celine"
   surname: "Kakauhe"
   title: "External Communication"
@@ -71,7 +81,7 @@
     - {abbr: "GDG", title: "PPI Irlandia"}
 
 - 
-  id: 7
+  id: 8
   name: "Arsa"
   surname: "Radifan"
   title: "Business"
@@ -81,7 +91,7 @@
     - {abbr: "GDG", title: "PPI Irlandia"}
 
 - 
-  id: 8
+  id: 9
   name: "Septa Jurdy"
   surname: "Mulya"
   title: "Business"
@@ -91,7 +101,7 @@
     - {abbr: "GDG", title: "PPI Irlandia"}
 
 -
-  id: 9
+  id: 10
   name: "Jonathan"
   surname: "Darren"
   title: "Business"
@@ -100,15 +110,6 @@
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
 
--
-  id: 10
-  name: "Christover"
-  surname: "Korompis"
-  title: "Business"
-  thumbnailUrl: Christover_Aprilliano_Korompis.png
-  team: true
-  ribbon:
-    - {abbr: "GDG", title: "PPI Irlandia"}
 
 - 
   id: 11
@@ -144,7 +145,7 @@
   id: 14
   name: "Fina Nusa"
   surname: "Puspa"
-  title: "Secretary"
+  title: "Social Media"
   thumbnailUrl: Fina_Nusa_Puspa.png
   team: true
   ribbon: 
