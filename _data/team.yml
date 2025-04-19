@@ -3,7 +3,7 @@
   name: "Cygnus"
   surname: "Abhisarikallah"
   title: "President"
-  thumbnailUrl: Cygnus_Abhisarikallah.JPG
+  thumbnailUrl: Cygnus_Abhisarikallah.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "P"}
@@ -15,7 +15,7 @@
   name: "Aryo Dimas"
   surname: "Witjaksono"
   title: "Vice President"
-  thumbnailUrl: Aryo_Dimas_Witjaksono.jpg
+  thumbnailUrl: Aryo_Dimas_Witjaksono.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -25,7 +25,7 @@
   name: "Intan"
   surname: "Andini"
   title: "Secretary"
-  thumbnailUrl: Intan_andini.jpg
+  thumbnailUrl: Intan_andini.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -35,7 +35,7 @@
   name: "Abyan Azraf"
   surname: "Soewandi"
   title: "Treasurer"
-  thumbnailUrl: Abyan_Azraf_Soewandi.jpg
+  thumbnailUrl: Abyan_Azraf_Soewandi.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -45,7 +45,7 @@
   name: "Josephine Angelina"
   surname: "Tan"
   title: "Internal Communication"
-  thumbnailUrl: Josephine_Angelina_Tan.jpg
+  thumbnailUrl: Josephine_Angelina_Tan.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -55,7 +55,7 @@
   name: "Andi Rezqi"
   surname: "Safitri"
   title: "Internal Communication"
-  thumbnailUrl: Andi_Rezqi_Safitri.jpg
+  thumbnailUrl: Andi_Rezqi_Safitri.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -65,7 +65,7 @@
   name: "Celine"
   surname: "Kakauhe"
   title: "External Communication"
-  thumbnailUrl: Celine_Kakauhe.jpeg
+  thumbnailUrl: Celine_Kakauhe.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -75,7 +75,7 @@
   name: "Arsa"
   surname: "Radifan"
   title: "Business"
-  thumbnailUrl: Arsa_Radifan.jpeg
+  thumbnailUrl: Arsa_Radifan.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -85,7 +85,7 @@
   name: "Septa Jurdy"
   surname: "Mulya"
   title: "Business"
-  thumbnailUrl: Septa_Jurdy_Mulya.jpg
+  thumbnailUrl: Septa_Jurdy_Mulya.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -95,7 +95,7 @@
   name: "Zain"
   surname: "Arifin"
   title: "Information Technology"
-  thumbnailUrl: Zain_Arifin.jpg
+  thumbnailUrl: Zain_Arifin.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -105,7 +105,7 @@
   name: "Aula Khoirun"
   surname: "Nisa"
   title: "Social Media"
-  thumbnailUrl: Aula_Khoirun_Nisa.jpeg
+  thumbnailUrl: Aula_Khoirun_Nisa.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -115,7 +115,7 @@
   name: "Fina Nusa"
   surname: "Puspa"
   title: "Secretary"
-  thumbnailUrl: Fina_Nusa_Puspa.jpg
+  thumbnailUrl: Fina_Nusa_Puspa.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -125,7 +125,7 @@
   name: "Clara"
   surname: "Angelica"
   title: "Graphic Design"
-  thumbnailUrl: Clara_Angelica.jpg
+  thumbnailUrl: Clara_Angelica.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -135,7 +135,7 @@
   name: "Yanuar Rohmat"
   surname: "Pradana"
   title: "Literature and Studies"
-  thumbnailUrl: Yanuar_Rohmat_Aji_Pradana.JPG
+  thumbnailUrl: Yanuar_Rohmat_Aji_Pradana.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -145,7 +145,7 @@
   name: "Deriqqa"
   surname: "Mawaddah"
   title: "Literature and Studies"
-  thumbnailUrl: Deriqqa_Mawaddah.jpeg
+  thumbnailUrl: Deriqqa_Mawaddah.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "PPI Irlandia"}

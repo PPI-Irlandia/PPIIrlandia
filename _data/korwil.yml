@@ -3,7 +3,7 @@
   name: "Yohannes"
   surname: ""
   title: "Koordinator Wilayah Cork"
-  thumbnailUrl: Yohannes.jpg
+  thumbnailUrl: Yohannes.png
   korwil: true
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -15,7 +15,7 @@
   name: "Nissa"
   surname: "Vidyanita"
   title: "Koordinator Wilayah Dublin"
-  thumbnailUrl: Nissa_Vidyanita.jpg
+  thumbnailUrl: Nissa_Vidyanita.png
   korwil: true
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -27,7 +27,7 @@
   name: "Benediktus Marvin"
   surname: "Sosrodjojo"
   title: "Koordinator Wilayah Dundalk"
-  thumbnailUrl: Benediktus_Marvin_Sosrodjojo.jpg
+  thumbnailUrl: Benediktus_Marvin_Sosrodjojo.png
   korwil: true
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -40,7 +40,7 @@
   name: "Silviana Isabela"
   surname: "Nababan"
   title: "Koordinator Wilayah Galway"
-  thumbnailUrl: Silviana_Isabela_Nababan.jpg
+  thumbnailUrl: Silviana_Isabela_Nababan.png
   korwil: true
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -52,7 +52,7 @@
   name: "Pranedya"
   surname: "Atria"
   title: "Koordinator Wilayah Galway"
-  thumbnailUrl: Pranedya_Atria.jpg
+  thumbnailUrl: Pranedya_Atria.png
   korwil: true
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
@@ -64,7 +64,7 @@
   name: "Andi Rezqi"
   surname: "Safitri"
   title: "Koordinator Wilayah Limerick"
-  thumbnailUrl: Andi_Rezqi_Safitri.jpg
+  thumbnailUrl: Andi_Rezqi_Safitri.png
   korwil: true
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
