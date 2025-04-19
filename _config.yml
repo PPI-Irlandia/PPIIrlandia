@@ -130,12 +130,14 @@ ticketsOffers:
 # Footer
 socialLinks:
  - {link: "https://www.instagram.com/ppiirlandia/", icon: "instagram"}
+ - {link: "https://www.linkedin.com/company/ppi-republik-irlandia/", text: "Linkedin"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "https://www.instagram.com/ppiirlandia/", text: "Instragram"}
+   - {link: "https://www.instagram.com/ppiirlandia/", text: "Instagram"}
+   - {link: "https://www.linkedin.com/company/ppi-republik-irlandia/", text: "Linkedin"}
  -
   title: "Contacts"
   links:
