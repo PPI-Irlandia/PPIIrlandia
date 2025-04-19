@@ -10,7 +10,7 @@ PPI Irlandia just held iftar gatherings in different counties across Ireland! It
 <img src="../img/Blog/Bukber/Dublin.jpg" alt="Trinity College Dublin. 21 March 2025" width="1000"/>
 
 #### Cork
-<img src="../img/Blog/Bukber/Dublin.jpg" alt="Trinity College Dublin. 21 March 2025" width="1000"/>
+<img src="../img/Blog/Bukber/Cork.jpg" alt="Taufan Residence" width="1000"/>
 
 #### Galway
 <img src="../img/Blog/Bukber/Galway.jpg" alt="University of Galway. 7 March 2025" width="1000"/>
