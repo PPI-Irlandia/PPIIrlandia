@@ -10,7 +10,7 @@
                             <span class="caption">Posted:</span>
                             <span class="publish-date" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
                         </div>
-                        <div class="share col-md-6 col-xs-6 pull-right">
+                        <!-- <div class="share col-md-6 col-xs-6 pull-right">
                             <ul class="social-links">
                             {% assign postUrl = page.url | prepend: site.baseurl | prepend: site.url %} 
                                 <li>
@@ -35,7 +35,7 @@
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                     {% endif %}
                     
@@ -54,20 +54,20 @@
                         </div>
                     </div>
 
-                    {% if include.isStaticPost == false %}
+                    <!-- {% if include.isStaticPost == false %}
                         <div class="comments">
                             {% if site.blogCommentsEnabled %} {% include disqus-comments.html %} {% endif %}
                         </div>
-                    {% endif %}
+                    {% endif %} -->
 
                 </article>
 
-                {% if include.isStaticPost == false %}
+                <!-- {% if include.isStaticPost == false %}
                     <div class="row text-center">
                         <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">via RSS</a>
                         </p>
                     </div>
-                {% endif %}
+                {% endif %} -->
 
             </div>
         </div>
