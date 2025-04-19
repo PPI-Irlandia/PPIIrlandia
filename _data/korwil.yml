@@ -4,6 +4,7 @@
   title: "Cork"
   thumbnailUrl: Yohannes.png
   korwil: true
+  email: "yohannes.sananto@gmail.com"
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
   social:
@@ -15,6 +16,7 @@
   title: "Dublin"
   thumbnailUrl: Nissa_Vidyanita.png
   korwil: true
+  email: "nissavidyanita@gmail.com"
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
   social:
@@ -26,6 +28,7 @@
   title: "Dundalk"
   thumbnailUrl: Benediktus_Marvin_Sosrodjojo.png
   korwil: true
+  email: "bmarvins214@gmail.com"
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
   social:
@@ -38,6 +41,7 @@
   title: "Galway"
   thumbnailUrl: Silviana_Isabela_Nababan.png
   korwil: true
+  email: "bnababansilvianai@gmail.com"
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
   social:
@@ -49,6 +53,7 @@
   title: "Galway"
   thumbnailUrl: Pranedya_Atria.png
   korwil: true
+  email: "P.Atria1@universityofgalway.ie"
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
   social:
@@ -60,6 +65,7 @@
   title: "Limerick"
   thumbnailUrl: Andi_Rezqi_Safitri.png
   korwil: true
+  email: "rezqisafitri@gmail.com"
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
   social:
