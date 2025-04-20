@@ -44,16 +44,16 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"} # Collection of current committees
  - { permalink: "/korwil/", text: "Koordinator Wilayah" } # Collection of current county coordinators
 bottomNavigationLinks:
- - {link: "https://s.id/PPIIrlandia", text: "Contact us"}
+ - {link: "https://linktr.ee/ppiirlandia", text: "Contact us"}
 rightNavigationButtons:
- - {link: "https://s.id/PPIIrlandia", text: "Contact us!"}
+ - {link: "https://linktr.ee/ppiirlandia", text: "Contact us!"}
 
 # Hero Block
 heroImage: "hero2.jpg"
 heroTitle: "PPI IRLANDIA"
 eventDate: "Perhimpunan Pelajar Indonesia di Irlandia"
 heroButtons:
-- {link: "https://s.id/PPIIrlandia", text: "Contact Us"}
+- {link: "https://linktr.ee/ppiirlandia", text: "Contact Us"}
 - {permalink: "/korwil/", text: "Koordinator Wilayah"}
 
 # About Block
