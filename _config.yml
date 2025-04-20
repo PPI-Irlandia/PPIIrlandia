@@ -43,6 +43,7 @@ navigationLinks:
  - {permalink: "/blog/", text: "Blog"} # Collection of past events
  - {permalink: "/team/", text: "Team"} # Collection of current committees
  - { permalink: "/korwil/", text: "Koordinator Wilayah" } # Collection of current county coordinators
+ - { permalink: "/faq/", text: "FAQ" } # FAQ, redirect to Guidebook
 bottomNavigationLinks:
  - {link: "https://linktr.ee/ppiirlandia", text: "Contact us"}
 rightNavigationButtons:
@@ -160,6 +161,9 @@ teamBlockTitle: "2024-2025 Committee"
 
 # Koordinator Wilayah Block
 korwilBlockTitle: "Koordinator Wilayah 2024-2025"
+
+# FAQ Block
+faqBlockTitle: "Guidebook PPI Irlandia 2022"
 
 
 # Logistics Find Way Block
