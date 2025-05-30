@@ -2025,14 +2025,12 @@ input[type="button"].btn-block {
     opacity: 1
 }
 
-.collapse {
+.collapse:not(.show) {
     display: none;
-    visibility: hidden
 }
 
-.collapse.in {
+.collapse.show {
     display: block;
-    visibility: visible
 }
 
 tr.collapse.in {
@@ -6963,3 +6961,10 @@ nav li a:hover {
         display: none !important
     }
 }
+
+/* FAQ Section Styling */
+.accordion-body {
+  text-align: left;
+  padding-left: 1rem;
+}
+

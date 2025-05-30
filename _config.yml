@@ -26,8 +26,8 @@ organizerLogo: "/img/seo/Logo_PPI.png"
 organizerLink: "https://ppi-irlandia.github.io"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "PPI Irlandia, Perhimpunan Pelajar Indonesia Irlandia, pelajar Indonesia di Irlandia, mahasiswa Indonesia Irlandia, komunitas Indonesia Irlandia, studi di Irlandia, organisasi pelajar Indonesia, diaspora Indonesia, PPI Dunia, beasiswa Irlandia, kegiatan pelajar Indonesia, Indonesian Student Association Ireland, Indonesian students in Ireland, study in Ireland, scholarships for Indonesian students, Indonesian community in Ireland, international students Ireland, Indonesian diaspora, PPI Ireland, Indonesian youth abroad, student life in Ireland"
+twitterAccount: ""
 socialImageSrcGooglePlus: "/img/seo/Logo_PPI.png"
 socialImageSrcTwitter: "/img/seo/Logo_PPI.png"
 socialImageSrcFacebook: "/img/seo/Logo_PPI.png"
@@ -163,7 +163,7 @@ teamBlockTitle: "2024-2025 Committee"
 korwilBlockTitle: "Koordinator Wilayah 2024-2025"
 
 # FAQ Block
-faqBlockTitle: "Guidebook PPI Irlandia 2022"
+faqBlockTitle: "Frequently Asked Questions"
 
 
 # Logistics Find Way Block
