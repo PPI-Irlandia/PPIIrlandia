@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "PPI Irlandia website"
-email: "devfest@gdg.org.ua"
-description: "PPI Irlandia website"
+title: "PPI Irlandia: Perhimpunan Pelajar Indonesia di Irlandia"
+email: "ppi.irlandia@ppi.id"
+description: "PPI Irlandia: Perhimpunan Pelajar Indonesia di Irlandia. Komunitas pelajar Indonesia di Irlandia. Indonesia student association in Ireland. Indonesian community in Ireland"
 baseurl: ""
 url: "https://ppiirlandia.com"
 permalink: "/blog/:title"
