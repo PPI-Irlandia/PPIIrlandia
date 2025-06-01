@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Halal Bihalal 2025"
+title:  "Halalbihalal 2025"
 date:   2025-04-19 09:00:00
 isStaticPost: false
 ---
 
-Halal bihalal is an event that’s become a beloved tradition for the Indonesian community in Ireland, and this year was no exception. Held on 13 April 2025 at Clontarf Rugby Club in Dublin, it was a day full of warmth, good food, and great company. PPI Irlandia teamed up with a number of organizations to make the event extra special, including the Indonesia-Irish Association (IIA), Firdaus (Indonesian Islamic community), KONKRIID (Indonesian and Catholic Indonesian community), and Perempuan Berkebaya Indonesia (PBI). These collaborations helped create an inclusive atmosphere, bringing together people from all walks of life.
+Halalbihalal is an event that’s become a beloved tradition for the Indonesian community in Ireland, and this year was no exception. Held on 13 April 2025 at Clontarf Rugby Club in Dublin, it was a day full of warmth, good food, and great company. PPI Irlandia teamed up with a number of organizations to make the event extra special, including the Indonesia-Irish Association (IIA), Firdaus (Indonesian Islamic community), KONKRIID (Christian and Catholic Indonesian community), and Perempuan Berkebaya Indonesia (PBI). These collaborations helped create an inclusive atmosphere, bringing together people from all walks of life.
 
 <img src="../img/Blog/Halbi/Indoor.jpg" alt="Indoor" style="max-width: 60%; height: auto; display: block; margin: auto;" />
 
