@@ -44,6 +44,7 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"} # Collection of current committees
  - { permalink: "/korwil/", text: "Koordinator Wilayah" } # Collection of current county coordinators
  - { permalink: "/faq/", text: "FAQ" } # FAQ, redirect to Guidebook
+ - { permalink: "/new_student/", text: "Mahasiswa Baru" } # Page untuk mahasiswa baru
 bottomNavigationLinks:
  - {link: "https://linktr.ee/ppiirlandia", text: "Contact us"}
 rightNavigationButtons:
