@@ -7032,3 +7032,10 @@ nav li a:hover {
     margin: auto;
     display: block;
 }
+
+
+.form-frame {
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
