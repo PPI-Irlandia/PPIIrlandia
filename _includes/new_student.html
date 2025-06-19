@@ -1,21 +1,108 @@
 <!-- About Hackathon Section -->
 <section id="about-hackathon" class="about-hackathon">
     <div class="content-wrapper">
-        <div class="col-md-8 col-md-offset-2">
-            <h1>Pendataan Mahasiswa Baru</h1>
-                <p>If you're unable to access the Google Form below, please use the following link: <a href="https://forms.gle/Jaf8YPKN9fgJ1HcJ7" target="_blank" rel="noopener noreferrer">https://forms.gle/Jaf8YPKN9fgJ1HcJ7</a></p>
-                <style>
-                    iframe {
-                    width: 100%;
-                    height: 100vh;
-                    border: none;
-                    }
-                </style>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfx0dQk1KBF7KHJPA0Z5jzSJ1Vd7oAtCILrVjijC4O2SyuF3A/viewform?embedded=true" 
-                        allowfullscreen>
-                    Loading…
-                </iframe>
+        <div class="mx-auto" style="max-width: 900px;">
+            <!-- New Student Ticket Gallery -->
+            <h3>Incoming Student Ticket</h3>
+            <p>PPI Irlandia 2024-2025 officially launches the "Incoming Student Ticket" series!</p>
+            <p class="mb-4">This series aims to provide a variety of important information for incoming students who
+                will arrive in Ireland this year. Each week, PPI Irlandia will discuss various topics such as housing,
+                transportation, pre-departure briefing, and many more.</p>
+
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"></h4>
+            <div class="row text-center cols-centered" id="ticket-gallery">
+                {% for ticket in site.data.tickets %}
+                <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                    <div class="zoe-effect gallery-img" data-bs-toggle="modal" data-bs-target="#carouselModal{{ ticket.id }}">
+                        <figure class="waves-effect waves-block waves-light">
+                            <img src="{{ site.baseurl }}/img/tickets/{{ ticket.thumbnail }}" alt="Ticket {{ ticket.id }}" class="img-responsive">
+                            <div class="overlay solid-overlay"></div>
+                        </figure>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            {% for ticket in site.data.tickets %}
+            <div class="modal" id="carouselModal{{ ticket.id }}" tabindex="-1" aria-hidden="true" data-bs-backdrop="true" data-bs-keyboard="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body p-0">
+                            <div id="carouselIndicators{{ ticket.id }}" class="carousel slide">
+                                <div class="carousel-inner">
+                                    {% for slide in ticket.slides %}
+                                    <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                                        <img src="{{ site.baseurl }}/img/tickets/{{ slide }}" class="d-block w-100" alt="Slide">
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators{{ ticket.id }}" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators{{ ticket.id }}" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+
+            <!-- Form Pendataan  -->
+            <h3>Pendataan Mahasiswa Baru</h3>
+            <p>If you're unable to access the Google Form below, please use the following link: <a href="https://forms.gle/Jaf8YPKN9fgJ1HcJ7" target="_blank" rel="noopener noreferrer">https://forms.gle/Jaf8YPKN9fgJ1HcJ7</a></p>
+            <style>
+                iframe {
+                width: 100%;
+                height: 100vh;
+                border: none;
+                }
+            </style>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfx0dQk1KBF7KHJPA0Z5jzSJ1Vd7oAtCILrVjijC4O2SyuF3A/viewform?embedded=true"
+                    allowfullscreen>
+                Loading…
+            </iframe>
         </div>
     </div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Initialize all carousels inside modals
+      const carousels = {};
+      document.querySelectorAll('.carousel.slide').forEach(carouselEl => {
+        const id = carouselEl.id;
+        carousels[id] = new bootstrap.Carousel(carouselEl, { interval: false });
+      });
+
+      // Add click event to gallery images
+      document.querySelectorAll('.gallery-img').forEach((img) => {
+        img.addEventListener('click', () => {
+          const modalId = img.getAttribute('data-bs-target'); // e.g. "#carouselModal1"
+          const modal = document.querySelector(modalId);
+          if (!modal) return;
+
+          // Get the carousel inside this modal
+          const carouselEl = modal.querySelector('.carousel.slide');
+          if (!carouselEl) return;
+
+          const carouselId = carouselEl.id;
+          const carouselInstance = carousels[carouselId];
+          if (!carouselInstance) return;
+
+          // Show modal first
+          const bsModal = bootstrap.Modal.getOrCreateInstance(modal);
+          bsModal.show();
+
+          // Move carousel to first slide (0) after modal is shown
+          setTimeout(() => {
+            carouselInstance.to(0);
+          }, 200);
+        });
+      });
+    });
+</script>
 <!-- End About Hackathon Section -->

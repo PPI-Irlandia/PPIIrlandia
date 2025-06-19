@@ -1,0 +1,20 @@
+- id: 1
+  thumbnail: "thumb-1.png"
+  slides:
+    - "slide-11.png"
+    - "slide-12.png"
+    - "slide-13.png"
+
+- id: 2
+  thumbnail: "thumb-2.png"
+  slides:
+    - "slide-21.png"
+    - "slide-22.png"
+    - "slide-23.png"
+
+- id: 3
+  thumbnail: "thumb-3.png"
+  slides:
+    - "slide-31.png"
+    - "slide-32.png"
+    - "slide-33.png"

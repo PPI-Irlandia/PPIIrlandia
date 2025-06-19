@@ -6968,3 +6968,67 @@ nav li a:hover {
   padding-left: 1rem;
 }
 
+#ticket-gallery .zoe-effect {
+    margin-bottom: 26px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.15);
+
+    /* Remove fixed height or padding */
+    height: auto !important;
+    width: auto; /* Let width be defined by container or image */
+    display: inline-block;
+}
+
+#ticket-gallery .zoe-effect img {
+    width: 100%;  /* responsive width fills container */
+    height: auto; /* maintain aspect ratio */
+    display: block; /* remove bottom whitespace */
+    object-fit: contain; /* or cover if you want cropping */
+}
+
+/* Make modal full-width on small screens and scale to image on larger */
+.modal-backdrop {
+    display: none !important;
+}
+
+.modal {
+  background: rgba(0,0,0,0.5);
+  position: fixed !important;
+}
+
+.modal-dialog {
+    max-width: fit-content;
+    width: auto;
+    margin: 20px auto;
+    position: relative; /* ensure positioning context */
+}
+
+.modal-content {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    pointer-events: auto;
+}
+
+.modal-body {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure carousel fits its container */
+.carousel-inner {
+    width: 100%;
+}
+
+/* Make images scale correctly */
+.carousel-item img {
+    max-height: 80vh;
+    width: auto;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}

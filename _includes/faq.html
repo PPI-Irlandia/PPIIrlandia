@@ -1,10 +1,11 @@
 <!-- About Hackathon Section -->
 <section id="about-hackathon" class="about-hackathon">
     <div class="content-wrapper">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="mx-auto" style="max-width: 800px;">
             <h3>{{ site.faqBlockTitle }}</h3>
             <!-- Accordion FAQ -->
             <div class="accordion accordion-flush" id="accordionExample">
+                <p class="text-left"><b>ABOUT PPI IRLANDIA</b></p>
                 {% for item in site.data.faq %}
                 <div class="accordion-item mb-4 shadow-sm">
                     <h2 class="accordion-header" id="heading{{ forloop.index }}">
@@ -28,10 +29,10 @@
                 {% endfor %}
             </div>
 
-
-            <p>Have a look at our Guidebook for Incoming Students! Having trouble viewing? <a href="{{ site.baseurl }}/img/guidebook/Guidebook PPI Irlandia 2022 Edisi 3.pdf" target="_blank" rel="noopener noreferrer">Download</a> instead.
+            <!-- Guidebook -->
+            <p>Have a look at our Guidebook for Incoming Students below or click <a href="{{ site.baseurl }}/img/guidebook/Guidebook PPI Irlandia 2022 Edisi 3.pdf" target="_blank" rel="noopener noreferrer">here</a>!</p>
             <object data="{{ site.baseurl }}/img/guidebook/Guidebook PPI Irlandia 2022 Edisi 3.pdf" type="application/pdf" width="100%" height="625px" style="margin-top: 20px">
-                <p>Unable to display PDF file. <a href="{{ site.baseurl }}/img/guidebook/Guidebook PPI Irlandia 2022 Edisi 3.pdf" target="_blank" rel="noopener noreferrer">Download</a> instead.</p>
+                <p>Unable to display PDF file on mobile. <a href="{{ site.baseurl }}/img/guidebook/Guidebook PPI Irlandia 2022 Edisi 3.pdf" target="_blank" rel="noopener noreferrer">Download</a> instead.</p>
             </object>
         </div>
     </div>
