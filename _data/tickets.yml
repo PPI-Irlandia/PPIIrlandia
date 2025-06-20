@@ -18,3 +18,20 @@
     - "slide-31.png"
     - "slide-32.png"
     - "slide-33.png"
+
+- id: 4
+  thumbnail: "thumb-4.png"
+  slides:
+    - "slide-41.png"
+    - "slide-42.png"
+
+- id: 5
+  thumbnail: "thumb-5.png"
+  slides:
+    - "slide-51.png"
+    - "slide-52.png"
+
+- id: 6
+  thumbnail: "thumb-6.png"
+  slides:
+    - "slide-61.png"
