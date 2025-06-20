@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "PPI Irlandia: Perhimpunan Pelajar Indonesia di Irlandia"
 email: "ppi.irlandia@ppi.id"
-description: "PPI Irlandia: Perhimpunan Pelajar Indonesia di Irlandia. Komunitas pelajar Indonesia di Irlandia. Indonesia student association in Ireland. Indonesian community in Ireland"
+description: "PPI Irlandia: Perhimpunan Pelajar Indonesia di Irlandia. Komunitas pelajar Indonesia di Irlandia. Indonesia student association in Ireland. Indonesian community in Ireland. Indonesia in Ireland"
 baseurl: ""
 url: "https://ppiirlandia.com"
 permalink: "/blog/:title"
@@ -26,7 +26,7 @@ organizerLogo: "/img/seo/Logo_PPI.png"
 organizerLink: "https://ppi-irlandia.github.io"
 
 # Head
-metaKeywords: "PPI Irlandia, Perhimpunan Pelajar Indonesia Irlandia, pelajar Indonesia di Irlandia, mahasiswa Indonesia Irlandia, komunitas Indonesia Irlandia, studi di Irlandia, organisasi pelajar Indonesia, diaspora Indonesia, PPI Dunia, beasiswa Irlandia, kegiatan pelajar Indonesia, Indonesian Student Association Ireland, Indonesian students in Ireland, study in Ireland, scholarships for Indonesian students, Indonesian community in Ireland, international students Ireland, Indonesian diaspora, PPI Ireland, Indonesian youth abroad, student life in Ireland"
+metaKeywords: "PPI Irlandia, Perhimpunan Pelajar Indonesia Irlandia, pelajar Indonesia di Irlandia, mahasiswa Indonesia Irlandia, komunitas Indonesia Irlandia, studi di Irlandia, organisasi pelajar Indonesia, diaspora Indonesia, PPI Dunia, beasiswa Irlandia, kegiatan pelajar Indonesia, Indonesian Student Association Ireland, Indonesian students in Ireland, study in Ireland, scholarships for Indonesian students, Indonesian community in Ireland, international students Ireland, Indonesian diaspora, PPI Ireland, Indonesian youth abroad, student life in Ireland, Indonesia in Ireland, Indonesia association in Ireland"
 twitterAccount: ""
 socialImageSrcGooglePlus: "/img/seo/Logo_PPI.png"
 socialImageSrcTwitter: "/img/seo/Logo_PPI.png"
