@@ -40,6 +40,7 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"} #Home page
+ - {permalink: "/about_us/", text: "About Us"} # About us
  - {permalink: "/blog/", text: "Blog"} # Collection of past events
  - {permalink: "/team/", text: "Team"} # Collection of current committees
  - { permalink: "/korwil/", text: "Koordinator Wilayah" } # Collection of current county coordinators
@@ -233,6 +234,47 @@ prizes:
  - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
  - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
  - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+
+
+ # Decorum Page Info
+decorumTitle: ""
+decorumRows:
+  - title: "What is PPI Irlandia?"
+    image: "about.jpg"
+    details: >
+      Perhimpunan Pelajar Indonesia di Irlandia (PPI Irlandia) is an organization established by Indonesian 
+      students in Ireland. We serve as a network for Indonesian students currently residing in Ireland or 
+      planning to pursue their studies here. Our presence is available throught all Ireland cities, big and small.
+      <br><br>
+      We regularly host events, large and small, throughout the year to promote Indonesian culture, 
+      language, traditions, and cuisine to both Indonesians in Ireland and the broader international community. 
+      In addition, we organize various academic and professional events that foster discussion, research, and 
+      updates on diverse topics, including recent developments and students research.
+
+  - title: "Our Vision"
+    image: "Vision.JPG"
+    details: >
+      To turn PPI Irlandia as a platform that fosters creativity, education, and social awareness among 
+      Indonesian students in Ireland, the diaspora, and future generations by promoting transparency, trust, and a 
+      unified effort to realize the aspirations of its members.
+
+  - title: "Our Mission"
+    image: "mission.JPG"
+    details: >
+        • Execute, develop, and maximize PPI Irlandia program, both old and new, that is adaptive to develop creativity, education and social awareness<br>
+        • Tighten the relationship between PPI Irlandia with Indonesia/International organizations, Indonesian diaspora in Ireland, KBRI London, Republic of Ireland, and other PPI from different countries.<br>
+        • Turn PPI Irlandia committees as a trusted agent as a place for PPI Irlandia members to forward their ideas and aspirations
+
+  - title: "A Place for You!"
+    image: "Inclusion.JPG"
+    details: >
+      PPI Irlandia is a safe space for our members to voice their opinion and have
+      an enjoyable experience while studying in Ireland. Any harassment within PPI Irlandia
+      on the basis of sex, gender, sexual orientation, religion, nationality,
+      ethnicity, age, or disability is not tolerated. If you are an Indonesian student or
+      alumni  in Ireland, you will always be a part of PPI Irlandia.
+
+
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"
