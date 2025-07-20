@@ -1,25 +1,27 @@
-<!-- About Hackathon Section -->
 <section id="about-hackathon" class="about-hackathon">
-    <div class="content-wrapper">
-        <div class="col-md-8 col-md-offset-2">
-            <h3>{{ site.decorumTitle }}</h3>
-            {% for row in site.decorumRows %}
-            {% assign check = forloop.index0 | modulo:2 %}
-            <div class="hackathon-row {% if check == 0 %}float-left{% else %}float-right{% endif %} col-md-12">
-                <div class="hackathon-img-wrapper animated hiding" data-animation="{% if check == 0 %}fadeInLeft{% else %}fadeInRight{% endif %}" data-delay="0">
-                    <img 
-                        src="{{ site.baseurl }}/img/PPI_Images/{{ row.image }}" 
-                        alt="Hackathon"
-                        class="img-responsive"
-                        style="border-radius:20px; box-shadow:0 10px 20px rgba(0,0,0,0.2);">
-                </div>
-                <div class="hackathon-details animated hiding" data-animation="{% if check == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}" data-delay="0">
-                    <h4>{{ row.title }}</h4>
-                    <p>{{ row.details }}</p>
-                </div>
-            </div>
-            {% endfor %}
+  <div class="content-wrapper">
+    <div class="container">
+      <h3>{{ site.decorumTitle }}</h3>
+      {% for row in site.decorumRows %}
+      {% assign isEven = forloop.index0 | modulo:2 %}
+      <div class="row align-items-center my-4 flex-column flex-md-row {% if isEven == 1 %}flex-md-row-reverse{% endif %}">
+        
+        <!-- Image Column -->
+        <div class="col-md-6 mb-3 mb-md-0">
+          <img 
+            src="{{ site.baseurl }}/img/PPI_Images/{{ row.image }}" 
+            alt="{{ row.title }}"
+            class="img-fluid"
+            style="border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.2); width: 100%;">
         </div>
+
+        <!-- Text Column -->
+        <div class="col-md-6">
+          <h4><b>{{ row.title }}</b></h4>
+          <p>{{ row.details }}</p>
+        </div>
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </section>
-<!-- End About Hackathon Section -->
