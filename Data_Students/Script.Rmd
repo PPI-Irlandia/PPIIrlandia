@@ -1,0 +1,236 @@
+---
+title: "PPI Irlandia Student Data Portal"
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Introduction
+
+The PPI Irlandia Student Data Portal provides an overview of survey results collected from our active students for the years 2024 and 2025. This portal aims to offer insights into the demographic of Indonesian students studying in Ireland.
+
+All data presented here is fully anonymized to protect privacy. Sensitive information, including names, personal identifiers, and contact details, has been excluded to ensure confidentiality.
+
+## Portal
+
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(plotly)
+library(openxlsx)
+library(viridisLite)
+
+
+data <- read.xlsx("Data_2025_2024.xlsx")
+data$idx <- seq(1, nrow(data))
+
+```
+
+```{r City, echo=FALSE, message=FALSE, warning=FALSE, quiet = TRUE}
+city_counts <- data.frame(table(data$City)) 
+colnames(city_counts) <- c("City", "Freq")
+
+library(tmap)
+library(sf)
+
+Sys.setenv("SHAPE_RESTORE_SHX" = "YES")
+ROI_counties = st_read("26_Counties/26 Counties/Census2011_Admin_Counties_generalised20m.shp", quiet = TRUE)
+ROI_counties <- select(ROI_counties, c(Nation = NUTS1NAME, County = COUNTYNAME, pop = Total2011, ID = COUNTY))
+ROI_counties$City <- gsub(" County", "", ROI_counties$County)
+
+Ireland <- ROI_counties
+Ireland <- left_join(Ireland, city_counts)
+
+tmap_mode("view")
+
+Ireland %>%
+  tm_shape() +
+  tm_fill(col = "Freq",
+          palette = "YlOrRd",          # Yellow to Red palette
+          title = "Distribution",
+          text.size = 0.5, 
+          style = "cont",
+          position = c("top", "left")) +
+  tm_scale_bar(breaks = c(0, 50, 100), text.size = 0.5,
+               position = c("right", "bottom")) +
+  tm_layout(frame = FALSE,
+            main.title = "Students Distribution by Geographical Location",
+            main.title.size = 1)  # Adjust size as needed
+```
+
+<br>
+
+```{r Uni, echo=FALSE, message=FALSE, warning=FALSE}
+
+#### University ####
+data_summary <- data %>%
+  count(University) %>%
+  arrange(n) %>%                    
+  mutate(University = factor(University, levels = unique(University)))
+
+plot_ly(data = data_summary,
+        x = ~n,
+        y = ~University,
+        type = 'bar',
+        orientation = 'h',                # horizontal bars to show universities on y-axis
+        marker = list(
+          color = ~n,
+          colorscale = "Plasma"
+        ),
+        text = ~paste(n),
+        hoverinfo = 'text') %>%
+  layout(title = "Students Distribution in Irish Universities",
+         xaxis = list(title = "Count"),
+         yaxis = list(title = "", categoryorder = "array", categoryarray = levels(data_summary$University)),
+         bargap = 0.2,
+         plot_bgcolor = "#ffffff",
+         paper_bgcolor = "#ffffff")
+```
+
+<br>
+
+```{r Major, echo=FALSE, message=FALSE, warning=FALSE}
+data_summary <- data %>%
+  count(Major_General) %>%
+  arrange(n) %>%                    
+  mutate(Major = factor(Major_General, levels = unique(Major_General)))
+
+plot_ly(data = data_summary,
+        x = ~n,
+        y = ~Major,
+        type = 'bar',
+        orientation = 'h',                # horizontal bars to show universities on y-axis
+        marker = list(
+          color = ~n,
+          colorscale = "Plasma"
+        ),
+        text = ~paste(n),
+        hoverinfo = 'text') %>%
+  layout(title = "Students Majors in Irish Universities",
+         xaxis = list(title = "Count"),
+         yaxis = list(title = "", categoryorder = "array", categoryarray = levels(data_summary$University)),
+         bargap = 0.2,
+         plot_bgcolor = "#ffffff",
+         paper_bgcolor = "#ffffff")
+```
+
+
+<br>
+
+```{r Age, echo=FALSE, message=FALSE, warning=FALSE}
+data_summary <- data %>%
+  mutate(AgeRange = cut(
+    Age,
+    breaks = seq(15, max(Age, na.rm = TRUE) + 5, by = 5),
+    right = TRUE,
+    include.lowest = TRUE,
+    labels = paste(seq(15, max(Age, na.rm = TRUE), by = 5),
+                   seq(19, max(Age, na.rm = TRUE) + 4, by = 5),
+                   sep = "-")
+  )) %>%
+  count(AgeRange)
+
+# Plot
+plot_ly(data = data_summary,
+        x = ~AgeRange,
+        y = ~n,
+        type = 'bar',
+        marker = list(
+          color = ~n,
+          colorscale = "Plasma"
+        ),
+        text = ~paste(n),
+        hoverinfo = 'text') %>%
+  layout(title = "Age Distribution",
+         xaxis = list(title = "Age Range", tickangle = -45),
+         yaxis = list(title = "Count"),
+         bargap = 0.2,
+         plot_bgcolor = "#ffffff",
+         paper_bgcolor = "#ffffff")
+```
+<br>
+
+```{r Gender, echo=FALSE, message=FALSE, warning=FALSE}
+gender_counts <- data %>%
+  count(Gender) %>%
+  mutate(
+    percent = round(100 * n / sum(n), 1),
+    text_label = paste0(Gender, "<br>", percent, "%<br>Count: ", n)
+  )
+
+plot_ly(gender_counts, labels = ~Gender, values = ~n, type = 'pie',
+        hole = 0.4,  # this makes it a ring/donut chart
+        text = ~text_label,
+        textinfo = 'text',
+        insidetextorientation = 'radial',
+        marker = list(colors = c('green', 'blue', '#00CC96', '#AB63FA', '#FFA15A'))) %>%
+  layout(title = 'Gender Distribution',
+         showlegend = TRUE)
+```
+<br>
+
+```{r degree, echo=FALSE, message=FALSE, warning=FALSE}
+degree_counts <- data %>%
+  count(Degree) %>%
+  mutate(
+    percent = round(100 * n / sum(n), 1),
+    text_label = paste0(Degree, "<br>", percent, "%<br>Count: ", n)
+  )
+
+# Define desired order
+desired_order <- c("S1 (Undergraduate)", "S2 (Masters)", "S3 (PhD)")
+degree_counts$Degree <- factor(degree_counts$Degree, levels = desired_order)
+degree_counts$text_label <- factor(degree_counts$text_label, levels = c("S1 (Undergraduate)<br>10.9%<br>Count: 10",
+                                                                    "S2 (Masters)<br>65.2%<br>Count: 60",
+                                                                    "S3 (PhD)<br>23.9%<br>Count: 22"))
+degree_counts <- degree_counts %>% arrange(Degree)
+
+plot_ly(degree_counts,
+        labels = ~as.character(Degree), 
+        values = ~n,
+        type = 'pie',
+        hole = 0.4,
+        text = ~paste(Degree, n),       # Combine degree and count for display
+        textinfo = 'text',              # Show the text on the plot
+        insidetextorientation = 'horizontal',
+        marker = list(colors = c('orange', 'blue', 'green'))) %>%
+  layout(title = 'Degree Distribution',
+         showlegend = TRUE,
+         legend = list(categoryorder = "array",
+                       categoryarray = desired_order))
+```
+
+<br>
+
+```{r Funding, echo=FALSE, message=FALSE, warning=FALSE}
+#### Funding ####
+data_summary <- data %>%
+  count(Funding) %>%
+  arrange(n) %>%                    
+  mutate(Funding = factor(Funding, levels = unique(Funding)))
+
+plot_ly(data = data_summary,
+        x = ~n,
+        y = ~Funding,
+        type = 'bar',
+        orientation = 'h',                # horizontal bars to show universities on y-axis
+        marker = list(
+          color = ~n,
+          colorscale = "Plasma"
+        ),
+        text = ~paste(n),
+        hoverinfo = 'text') %>%
+  layout(title = "Funding types",
+         xaxis = list(title = "Count"),
+         yaxis = list(title = "", categoryorder = "array", categoryarray = levels(data_summary$University)),
+         bargap = 0.2,
+         plot_bgcolor = "#ffffff",
+         paper_bgcolor = "#ffffff")
+```

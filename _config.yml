@@ -45,6 +45,7 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"} # Collection of current committees
  - { permalink: "/korwil/", text: "Koordinator Wilayah" } # Collection of current county coordinators
  - { permalink: "/new_student/", text: "Mahasiswa Baru" } # Page untuk mahasiswa baru
+ - { permalink: "/data_portal/", text: "Data Portal" } # Data portal page
  - { permalink: "/faq/", text: "FAQ" } # FAQ, redirect to Guidebook
 
 bottomNavigationLinks:
