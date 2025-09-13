@@ -1,32 +1,28 @@
+<section id="data-portal-embed" style="width: 100%; height: 100vh; margin: 0; padding: 0; border: none; display: flex; flex-direction: column;">
+  <iframe 
+    src="https://ppi-irlandia.github.io/data_portal/" 
+    style="flex: 1; width: 100%; min-height: 300px; border: none;" 
+    frameborder="0" 
+    scrolling="yes" 
+    allowfullscreen>
+  </iframe>
+</section>
+
 <style>
-  html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden; /* prevent double scrollbars */
-    position: fixed;  /* fixes mobile vh issue */
-    top: 0;
-    left: 0;
-  }
-
-  #data-portal-embed {
-    width: 100%;
-    height: 100%;
-  }
-
+  /* Make iframe responsive */
   #data-portal-embed iframe {
     width: 100%;
     height: 100%;
-    border: none;
+    min-height: 400px;
+  }
+
+  /* Adjust for smaller devices */
+  @media (max-width: 600px) {
+    #data-portal-embed {
+      height: 100vh; /* full viewport height */
+    }
+    #data-portal-embed iframe {
+      min-height: 600px; /* slightly taller for mobiles */
+    }
   }
 </style>
-
-<section id="data-portal-embed">
-  <iframe 
-      src="https://ppi-irlandia.github.io/data_portal/" 
-      frameborder="0" 
-      scrolling="yes" 
-      allowfullscreen>
-  </iframe>
-</section>
