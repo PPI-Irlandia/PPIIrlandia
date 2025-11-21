@@ -25,39 +25,41 @@
 
       <!-- Organization Profile -->
       <div class="mx-auto" style="max-width: 1000px; padding: 2rem">
-        <h6><b>
-          Have a look at our Organization Profile below!
-        </b></h6>
+        <h6><b>Have a look at our Organization Profile below!</b></h6>
 
-        <!-- Language Switch Buttons -->
         <div style="margin-bottom: 1rem;">
           <button onclick="switchPDF('id')" class="btn-pdf">Indonesian</button>
           <button onclick="switchPDF('en')" class="btn-pdf">English</button>
         </div>
 
-        <!-- PDF Frame -->
         <iframe
                 id="pdfViewer"
-                src="https://docs.google.com/viewer?url={{ site.url }}{{ site.baseurl }}/img/about-section/Profil_Organisasi_ID.pdf&embedded=true"
-                style="width:100%; height:540px;"
+                src="{{ site.baseurl }}/img/about-section/Profil_Organisasi_ID.pdf"
+                style="width:100%; height:540px; border: none;"
         ></iframe>
+
+        <!-- Direct download fallback link for mobile browsers -->
+        <p style="margin-top: 10px;">
+          <a id="downloadLink" href="{{ site.baseurl }}/img/about-section/Profil_Organisasi_ID.pdf" target="_blank">
+            📄 Open PDF in new tab (mobile-friendly)
+          </a>
+        </p>
       </div>
 
       <script>
         function switchPDF(lang) {
-          const viewer = document.getElementById("pdfViewer");
+          const base = "{{ site.url | default: site.github.url }}{{ site.baseurl }}";
 
-          // Map language → correct file
-          const pdfFiles = {
-            id: "{{ site.url }}{{ site.baseurl }}/img/about-section/Profil_Organisasi_ID.pdf",
-            en: "{{ site.url }}{{ site.baseurl }}/img/about-section/Profil_Organisasi_EN.pdf"
+          const files = {
+            id: `${base}/img/about-section/Profil_Organisasi_ID.pdf`,
+            en: `${base}/img/about-section/Profil_Organisasi_EN.pdf`
           };
 
-          viewer.src = `https://docs.google.com/viewer?url=${pdfFiles[lang]}&embedded=true`;
+          document.getElementById("pdfViewer").src = files[lang];
+          document.getElementById("downloadLink").href = files[lang];
         }
       </script>
 
-      <!-- button styling -->
       <style>
         .btn-pdf {
           padding: 8px 14px;
@@ -68,7 +70,6 @@
           margin-right: 8px;
           border-radius: 5px;
         }
-
         .btn-pdf:hover {
           background: #0056b3;
         }
