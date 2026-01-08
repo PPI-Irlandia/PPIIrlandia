@@ -5,10 +5,6 @@ output:
   prettydoc::html_pretty:
     theme: cayman
     highlight: github
-vignette: >
-  %\VignetteIndexEntry{Vignette Title}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
 ---
 
 ## Introduction
@@ -26,19 +22,20 @@ library(tidyverse)
 library(plotly)
 library(openxlsx)
 library(viridisLite)
-
+library(tmap)
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
 
 data <- read.xlsx("Data_2025_2024.xlsx")
 data$idx <- seq(1, nrow(data))
 
 ```
 
-```{r City, echo=FALSE, message=FALSE, warning=FALSE, quiet = TRUE}
+```{r City, echo=FALSE, message=FALSE, warning=FALSE, quiet = TRUE, out.height="100%", out.width="100%"}
 city_counts <- data.frame(table(data$City)) 
 colnames(city_counts) <- c("City", "Freq")
 
-library(tmap)
-library(sf)
 
 Sys.setenv("SHAPE_RESTORE_SHX" = "YES")
 ROI_counties = st_read("26_Counties/26 Counties/Census2011_Admin_Counties_generalised20m.shp", quiet = TRUE)
@@ -48,26 +45,40 @@ ROI_counties$City <- gsub(" County", "", ROI_counties$County)
 Ireland <- ROI_counties
 Ireland <- left_join(Ireland, city_counts)
 
-tmap_mode("view")
+# Load world map
+world <- ne_countries(scale = "medium", returnclass = "sf")
 
-Ireland %>%
-  tm_shape() +
+# Define bounding box around Ireland + neighboring areas
+bbox <- st_bbox(c(xmin = -13, xmax = 0, ymin = 51, ymax = 56), crs = st_crs(world))
+
+tmap_mode("plot")
+
+tm_shape(world, bbox = bbox) +
+  tm_polygons(col = "lightgrey", border.col = "white") +  # Background countries
+  tm_shape(Ireland) +
   tm_fill(col = "Freq",
-          palette = "YlOrRd",          # Yellow to Red palette
+          palette = "YlOrRd",
           title = "Distribution",
-          text.size = 0.5, 
+          text.size = 0.5,
           style = "cont",
           position = c("top", "left")) +
-  tm_scale_bar(breaks = c(0, 50, 100), text.size = 0.5,
+  tm_borders(lwd = 0.8, col = "black") +
+  tm_scale_bar(breaks = c(0, 50, 100),
+               text.size = 0.5,
                position = c("right", "bottom")) +
   tm_layout(frame = FALSE,
             main.title = "Students Distribution by Geographical Location",
-            main.title.size = 1)  # Adjust size as needed
+            main.title.size = 1,
+            legend.position = c("right", "top"),  # force legend placement
+            legend.outside = FALSE)    +
+  tm_compass(type = "4star",
+             position = c("left", "top"),
+             size = 2)
 ```
 
 <br>
 
-```{r Uni, echo=FALSE, message=FALSE, warning=FALSE}
+```{r Uni, echo=FALSE, message=FALSE, warning=FALSE, out.height="100%", out.width="100%"}
 
 #### University ####
 data_summary <- data %>%
@@ -96,7 +107,7 @@ plot_ly(data = data_summary,
 
 <br>
 
-```{r Major, echo=FALSE, message=FALSE, warning=FALSE}
+```{r Major, echo=FALSE, message=FALSE, warning=FALSE, out.height="100%", out.width="100%"}
 data_summary <- data %>%
   count(Major_General) %>%
   arrange(n) %>%                    
@@ -124,7 +135,7 @@ plot_ly(data = data_summary,
 
 <br>
 
-```{r Age, echo=FALSE, message=FALSE, warning=FALSE}
+```{r Age, echo=FALSE, message=FALSE, warning=FALSE, out.height="100%", out.width="100%"}
 data_summary <- data %>%
   mutate(AgeRange = cut(
     Age,
@@ -157,7 +168,7 @@ plot_ly(data = data_summary,
 ```
 <br>
 
-```{r Gender, echo=FALSE, message=FALSE, warning=FALSE}
+```{r Gender, echo=FALSE, message=FALSE, warning=FALSE, out.height="100%", out.width="100%"}
 gender_counts <- data %>%
   count(Gender) %>%
   mutate(
@@ -172,11 +183,11 @@ plot_ly(gender_counts, labels = ~Gender, values = ~n, type = 'pie',
         insidetextorientation = 'radial',
         marker = list(colors = c('green', 'blue', '#00CC96', '#AB63FA', '#FFA15A'))) %>%
   layout(title = 'Gender Distribution',
-         showlegend = TRUE)
+         showlegend = F)
 ```
 <br>
 
-```{r degree, echo=FALSE, message=FALSE, warning=FALSE}
+```{r degree, echo=FALSE, message=FALSE, warning=FALSE, out.height="100%", out.width="100%"}
 degree_counts <- data %>%
   count(Degree) %>%
   mutate(
@@ -187,9 +198,9 @@ degree_counts <- data %>%
 # Define desired order
 desired_order <- c("S1 (Undergraduate)", "S2 (Masters)", "S3 (PhD)")
 degree_counts$Degree <- factor(degree_counts$Degree, levels = desired_order)
-degree_counts$text_label <- factor(degree_counts$text_label, levels = c("S1 (Undergraduate)<br>10.9%<br>Count: 10",
-                                                                    "S2 (Masters)<br>65.2%<br>Count: 60",
-                                                                    "S3 (PhD)<br>23.9%<br>Count: 22"))
+# degree_counts$text_label <- factor(degree_counts$text_label, levels = c("S1 (Undergraduate)<br>15.9%<br>Count: 24",
+#                                                                     "S2 (Masters)<br>65.2%<br>Count: 85",
+#                                                                     "S3 (PhD)<br>23.9%<br>Count: 42"))
 degree_counts <- degree_counts %>% arrange(Degree)
 
 plot_ly(degree_counts,
@@ -202,14 +213,14 @@ plot_ly(degree_counts,
         insidetextorientation = 'horizontal',
         marker = list(colors = c('orange', 'blue', 'green'))) %>%
   layout(title = 'Degree Distribution',
-         showlegend = TRUE,
+         showlegend = F,
          legend = list(categoryorder = "array",
                        categoryarray = desired_order))
 ```
 
 <br>
 
-```{r Funding, echo=FALSE, message=FALSE, warning=FALSE}
+```{r Funding, echo=FALSE, message=FALSE, warning=FALSE, out.height="100%", out.width="100%"}
 #### Funding ####
 data_summary <- data %>%
   count(Funding) %>%
