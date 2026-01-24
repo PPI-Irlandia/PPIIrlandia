@@ -37,12 +37,22 @@
             </p>
 
             <iframe
-                    src="https://docs.google.com/viewer?url={{ site.url }}{{ site.baseurl }}/img/guidebook/Guidebook_PPI_Irlandia_2025_compressed.pdf&embedded=true"
+                    class="desktop-only"
+                    src="{{ site.baseurl }}/img/guidebook/Guidebook_PPI_Irlandia_2025_compressed.pdf"
                     style="width:100%; height:600px;">
             </iframe>
         </div>
     </div>
 </section>
+
+<!-- to hide the 404 error on mobile-->
+<style>
+    @media screen and (max-width: 768px) {
+        .desktop-only {
+            display: none;
+        }
+    }
+</style>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
