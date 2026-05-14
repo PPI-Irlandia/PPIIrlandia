@@ -1,73 +1,60 @@
 -
   id: 0
-  name: "Yohannes"
-  title: "Cork"
-  thumbnailUrl: Yohannes.png
+  name: "Nur Ichsani"
+  title: "Galway"
+  thumbnailUrl: Nur_Ichsani.jpeg
   korwil: true
-  email: "yohannes.sananto@gmail.com"
+  email: "dr.ichsani@gmail.com"
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
   social:
-    - { name: "email", link: "mailto:yohannes.sananto@gmail.com" }
+    - { name: "email", link: "mailto:dr.ichsani@gmail.com" }
 
 -
   id: 1
-  name: "Nissa Vidyanita"
-  title: "Dublin"
-  thumbnailUrl: Nissa_Vidyanita.png
+  name: "Tifany Chairunisa"
+  title: "Limerick"
+  thumbnailUrl: Tifany_Chairunisa.jpeg
   korwil: true
-  email: "nissavidyanita@gmail.com"
+  email: "chairunisa.tifany@ul.ie"
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
   social:
-    - { name: "email", link: "mailto:nissavidyanita@gmail.com" }
+    - { name: "email", link: "mailto:chairunisa.tifany@ul.ie" }
 
 -
   id: 2
-  name: "Benediktus Marvin Sosrodjojo"
-  title: "Dundalk"
-  thumbnailUrl: Benediktus_Marvin_Sosrodjojo.png
+  name: "Almira Azmi Sabila"
+  title: "Cork"
+  thumbnailUrl: Almira_Azmi_Sabila.jpeg
   korwil: true
-  email: "bmarvins214@gmail.com"
+  email: "Almira.azsabila@gmail.com"
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
   social:
-    - { name: "email", link: "mailto:bmarvins214@gmail.com" }
+    - { name: "email", link: "mailto:Almira.azsabila@gmail.com" }
 
 
 -
   id: 3
-  name: "Silviana Isabela Nababan"
-  title: "Galway"
-  thumbnailUrl: Silviana_Isabela_Nababan.png
+  name: "Salsabila Shofia"
+  title: "Dublin"
+  thumbnailUrl: Salsabila_Shofia.jpeg
   korwil: true
-  email: "nababansilvianai@gmail.com"
+  email: "salsabilashof@gmail.com"
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
   social:
-    - { name: "email", link: "mailto:nababansilvianai@gmail.com" }
+    - { name: "email", link: "mailto:salsabilashof@gmail.com" }
 
 -
   id: 4
-  name: "Pranedya Atria"
-  title: "Galway"
-  thumbnailUrl: Pranedya_Atria.png
+  name: "Afrisal Isfan Abdillah"
+  title: "Dublin"
+  thumbnailUrl: Afrisal_Isfan_Abdillah.jpeg
   korwil: true
-  email: "P.Atria1@universityofgalway.ie"
+  email: "afrisal.abdillah@gmail.com"
   ribbon:
     - {abbr: "GDG", title: "PPI Irlandia"}
   social:
-    - { name: "email", link: "mailto:P.Atria1@universityofgalway.ie" }
-
--
-  id: 5
-  name: "Andi Rezqi Safitri"
-  title: "Limerick"
-  thumbnailUrl: Andi_Rezqi_Safitri.png
-  korwil: true
-  email: "rezqisafitri@gmail.com"
-  ribbon:
-    - {abbr: "GDG", title: "PPI Irlandia"}
-  social:
-    - { name: "email", link: "mailto:rezqisafitri@gmail.com" }
-
+    - { name: "email", link: "mailto:afrisal.abdillah@gmail.com" }
